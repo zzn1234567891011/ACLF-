@@ -14,7 +14,7 @@ st.markdown("请输入以下指标，模型将输出风险等级（高风险/低
 # ==================== 加载已训练好的模型 ====================
 @st.cache_resource
 def load_model():
-    model = joblib.load('xgboost_model.pkl')
+    model = joblib.load('部署包/xgboost_model.pkl')
     return model
 
 model = load_model()
