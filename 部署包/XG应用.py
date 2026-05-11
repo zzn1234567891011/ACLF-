@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import xgboost as xgb
 import joblib
+import os 
 
 st.write("当前工作目录:", os.getcwd())
 st.write("目录下的文件列表:", os.listdir("."))
